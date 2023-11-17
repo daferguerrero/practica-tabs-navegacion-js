@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: tahoma;
+}
+
+main.main {
+  padding: 10px;
+}
+
+ul.container-tabheader {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  background-color: tomato;
+}
+
+li.tabheader {
+  width: 25%;
+  text-align: center;
+  color: floralwhite;
+  font-size: 1.3em;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+
+div.container-tabpage {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: 100px;
+
+  position: relative;
+}
+
+div.tabpage {
+  width: 100%;
+  background-color:rgb(60, 60, 60);
+  color: white;
+  padding: 10px;
+  position: absolute;
+
+  display: none;
+}
+
+div.tabpage:first-child {
+  display: block;
+}
+
+li.active {
+  background-color: floralwhite;
+  color: tomato;
+}
+
+/* div.tab:target {
+  display: block;
+}
+
+li.menu-item:hover {
+  background-color:brown;
+} */
